@@ -1,264 +1,89 @@
-<div align="center">
+<h1 align="center">Hi, I'm Yug Rokadia 👋</h1>
+<h3 align="center">AI/ML Engineer · Building RAG systems, ML pipelines & secure data infrastructure</h3>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:111111,100:39FF14&height=220&section=header&text=Yug%20Rokadia&fontSize=55&fontColor=ffffff&fontAlignY=35&desc=AI%20%7C%20ML%20%7C%20Software%20Engineering&descAlignY=55&descSize=20&animation=fadeIn" width="100%"/>
-
-<br>
-
-<a href="https://github.com/YugRokadia">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2800&pause=900&color=39FF14&center=true&vCenter=true&width=700&lines=Building+systems+that+think.;Machine+Learning+%7C+Generative+AI+%7C+Data;Turning+data+into+intelligence.;Exploring+LLMs%2C+RAG%2C+GNNs+%26+AI+Agents." alt="Typing SVG"/>
-</a>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=YugRokadia&label=PROFILE%20VIEWS&color=39FF14&style=for-the-badge" alt="Profile views"/>
-
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/yug-rokadia/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:yug.rokadia@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/YugRokadia"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
+</p>
 
 ---
 
-## `> whoami`
+### 🧠 About Me
 
-```python
-class YugRokadia:
-    role = "Computer Engineering Student"
-    focus = [
-        "Machine Learning",
-        "Generative AI",
-        "Data Engineering",
-        "Software Engineering"
-    ]
-
-    currently_exploring = [
-        "LLMs",
-        "RAG",
-        "AI Agents",
-        "Graph Neural Networks",
-        "Data Pipelines"
-    ]
-
-    philosophy = "Build. Break. Learn. Rebuild."
-```
-
-I'm a Computer Engineering student interested in the intersection of **Machine Learning, Generative AI, Data Engineering, and Software Systems**.
-
-I enjoy building things that move beyond notebooks — from **LLM/RAG systems and ML pipelines to network-analysis tools and distributed applications**.
+- 🎓 Bachelor's in Computer Engineering @ SVKM's NMIMS MPSTME, Mumbai
+- 🔐 Currently exploring the intersection of **AI/ML** and **security** — from RAG pipelines to malicious payload detection in neural network weights
+- 💼 Previously: Information Security Intern @ **RXIL**, Full Stack AI-ML Intern @ **Crocus IT** (Texas, remote)
+- 📄 Published research: *"Cryptographic Overwrite based Secure Data Deletion for Heterogeneous Storage Devices"* — Wiley
+- ⚡ Fun fact: I've deployed AI models on Raspberry Pi 4Bs more than once
 
 ---
 
-## `> neural_stack`
+### 🛠️ Tech Stack
 
-<div align="center">
+**Languages**
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white"/>
+</p>
 
-### 🧠 AI / ML
+**AI / Machine Learning**
+<p>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/LLMs%20%7C%20RAG-412991?style=flat&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vector%20Search-6E56CF?style=flat"/>
+<img src="https://img.shields.io/badge/CNNs%20%7C%20GNNs%20%7C%20GRUs-8A2BE2?style=flat"/>
+</p>
 
-<img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/PyTorch-111111?style=for-the-badge&logo=pytorch&logoColor=EE4C2C"/>
-<img src="https://img.shields.io/badge/TensorFlow-111111?style=for-the-badge&logo=tensorflow&logoColor=FF6F00"/>
-<img src="https://img.shields.io/badge/scikit--learn-111111?style=for-the-badge&logo=scikitlearn&logoColor=F7931E"/>
-<img src="https://img.shields.io/badge/LLMs-111111?style=for-the-badge&logo=openai&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/RAG-111111?style=for-the-badge&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/GNNs-111111?style=for-the-badge&logoColor=39FF14"/>
-
-### ⚙️ Engineering
-
-<img src="https://img.shields.io/badge/C++-111111?style=for-the-badge&logo=cplusplus&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Rust-111111?style=for-the-badge&logo=rust&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-<img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Flask-111111?style=for-the-badge&logo=flask&logoColor=ffffff"/>
-
-### ☁️ Cloud / Data
-
-<img src="https://img.shields.io/badge/AWS-111111?style=for-the-badge&logo=amazonaws&logoColor=FF9900"/>
-<img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=2496ED"/>
-<img src="https://img.shields.io/badge/Kubernetes-111111?style=for-the-badge&logo=kubernetes&logoColor=326CE5"/>
-<img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=4169E1"/>
-<img src="https://img.shields.io/badge/SQL-111111?style=for-the-badge&logoColor=39FF14"/>
-
-</div>
-
----
-
-## `> current_projects`
-
-<table>
-<tr>
-<td width="50%">
-
-### 🐟 Goldfish
-
-**AI-powered local file search inspired by macOS Spotlight.**
-
-Combines traditional file discovery with:
-
-* Semantic search
-* Embeddings
-* Vector retrieval
-* RAG
-* LLM-powered querying
-
-</td>
-
-<td width="50%">
-
-### 🌌 GLIRE
-
-**Gravitational Lensing Inspired Routing Engine**
-
-A physics-informed spatio-temporal GNN for congestion forecasting and intelligent network routing.
-
-`GNN` `GRU` `PyTorch` `Graph Analytics`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🎭 Emotion & Face Analysis
-
-Deep-learning based facial analysis using CNNs, ResNet architectures and MediaPipe.
-
-`PyTorch` `CNN` `Computer Vision`
-
-</td>
-
-<td width="50%">
-
-### 📡 Network Packet Sniffer
-
-Real-time packet capture and analysis engine using C++ and libpcap with a Python terminal interface.
-
-`C++` `Python` `libpcap` `Linux`
-
-</td>
-</tr>
-</table>
+**Data & Infra**
+<p>
+<img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+</p>
 
 ---
 
-## `> architecture`
+### 🚀 Featured Projects
 
-```text
-                         ┌─────────────────────┐
-                         │       RAW DATA      │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │   DATA PIPELINES    │
-                         │ Ingest → Transform  │
-                         │ Validate → Process  │
-                         └──────────┬──────────┘
-                                    │
-                    ┌───────────────┴───────────────┐
-                    ▼                               ▼
-          ┌─────────────────┐             ┌─────────────────┐
-          │   ML / DL        │             │    GenAI        │
-          │ CNN │ GNN │ GRU │             │ LLM │ RAG       │
-          └────────┬────────┘             │ Embeddings       │
-                   │                      └────────┬────────┘
-                   │                               │
-                   └───────────────┬───────────────┘
-                                   ▼
-                         ┌─────────────────────┐
-                         │   INTELLIGENT       │
-                         │     SYSTEMS         │
-                         └─────────────────────┘
-```
+| Project | Description | Stack |
+|---|---|---|
+| **[Goldfish Search](https://github.com/YugRokadia)** | AI-powered local file search inspired by Spotlight — semantic search via embeddings + LLM-powered RAG for natural-language querying | `Python` `LLMs` `RAG` `Embeddings` `Vector Search` |
+| **[GAT-based Payload Detection](https://github.com/YugRokadia/GAT-Based-Steganographic-Payload-Detection-in-Neural-Networks)** | Trained 60+ CNNs to build a clean/corrupted dataset, engineered 22 byte-level statistical features, and detected steganographic payloads in NN weights with up to **97% accuracy** | `Python` `GNN` `Neural Networks` |
+| **[TUI Network Packet Sniffer](https://github.com/YugRokadia/Packet-Sniffer)** | C++ capture engine (libpcap) classifying traffic across 17 protocols, with a live Python terminal dashboard — deployed on a Raspberry Pi 4B as a secondary router | `C++` `Python` `TUI` `Networking` `Linux` |
+| **[Emotion & Face Analysis](https://github.com/YugRokadia/Emotion-and-Face-Analysis-CNN)** | Dual CNN models for emotion recognition and age/race/gender estimation (>80% accuracy), with automated face blurring, deployed on a Pi-based smart camera | `Python` `Federated Learning` `Computer Vision` |
 
 ---
 
-## `> github_stats`
+### 🏆 Highlights
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YugRokadia&show_icons=true&hide_border=true&bg_color=0D1117&title_color=39FF14&icon_color=39FF14&text_color=FFFFFF&rank_icon=github"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YugRokadia&layout=compact&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=FFFFFF"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YugRokadia&theme=dark&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" />
-
-</div>
+- 📝 Research paper published in **Wiley**
+- 🥇 Smart India Hackathon 2024 — Internal Hackathon Winner
+- 🏅 Award winner in 5+ Model United Nations conferences
+- 👥 Team Lead — Hyphen Ideathon 2024 (Google Developer's Student Club)
+- 📚 Head of R&D, Social Conclave 2025 — study guides used by 700+ participants
 
 ---
 
-## `> contribution_matrix`
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YugRokadia&show_icons=true&theme=default&hide_border=true&count_private=true" alt="Yug's GitHub Stats" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YugRokadia&hide_border=true" alt="Yug's Streak" height="165"/>
+</p>
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YugRokadia&layout=compact&hide_border=true" alt="Top Languages" height="165"/>
+</p>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YugRokadia&bg_color=0D1117&color=FFFFFF&line=39FF14&point=FFFFFF&area=true&hide_border=true" width="95%"/>
-
-</div>
-
----
-
-## `> achievements`
-
-```text
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║  📄  Published Research                                     ║
-║      Cryptographic Overwrite based Secure Data Deletion     ║
-║      for Heterogeneous Storage Devices                      ║
-║                                                              ║
-║  🏆  Smart India Hackathon                                  ║
-║      Internal Hackathon Winner — 2024                       ║
-║                                                              ║
-║  🧠  Model United Nations                                   ║
-║      Award Winner — 5+ Conferences                           ║
-║                                                              ║
-║  🚀  Hyphen Ideathon                                        ║
-║      Team Lead — 2024                                       ║
-║                                                              ║
-║  📚  Social Conclave                                        ║
-║      Head of R&D — Study guides used by 700+ participants   ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
----
-
-## `> connect()`
-
-<div align="center">
-
-<a href="mailto:yug.rokadia@gmail.com">
-<img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
-</a>
-
-<a href="https://www.linkedin.com/in/yug-rokadia/">
-<img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/>
-</a>
-
-<a href="https://github.com/YugRokadia">
-<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
-</a>
-
-</div>
-
-<br>
-
-<div align="center">
-
-```text
-██████╗ ██╗   ██╗██╗██╗     ██████╗  ██████╗ ██╗  ██╗
-██╔══██╗██║   ██║██║██║     ██╔══██╗██╔═══██╗██║ ██╔╝
-██████╔╝██║   ██║██║██║     ██████╔╝██║   ██║█████╔╝
-██╔══██╗██║   ██║██║██║     ██╔══██╗██║   ██║██╔═██╗
-██████╔╝╚██████╔╝██║███████╗██║  ██║╚██████╔╝██║  ██╗
-╚═════╝  ╚═════╝ ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝
-```
-
-**`Build intelligent systems. Ship useful things.`**
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:39FF14,50:111111,100:0f0f0f&height=120&section=footer" width="100%"/>
+<p align="center"><i>📫 Reach out: yug.rokadia@gmail.com</i></p>
