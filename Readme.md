@@ -12,6 +12,12 @@
 
 <br/>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YugRokadia/YugRokadia/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+<br/>
+
 ## 🧠 About Me
 
 ```yaml
@@ -104,12 +110,6 @@ Dual CNN models for emotion + age/race/gender estimation (>80% accuracy), auto f
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YugRokadia&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/YugRokadia/YugRokadia/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 <br/>
