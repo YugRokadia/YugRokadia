@@ -12,8 +12,15 @@
 
 <br/>
 
+<!--
+  🐍 -> 🟡 Swapped the classic contribution-snake for a Pac-Man reskin.
+  Both run on the same GitHub Action pattern (fork the repo, point the
+  workflow at your username, output an SVG). If you'd rather keep the
+  original snake, just swap this image source back to your
+  github-contribution-grid-snake-dark.svg output.
+-->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YugRokadia/YugRokadia/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/YugRokadia/YugRokadia/output/github-pacman-grid-dark.svg" />
 </p>
 
 <br/>
@@ -26,8 +33,8 @@ role: AI/ML Engineer
 education: B.E. Computer Engineering @ NMIMS MPSTME, Mumbai
 focus: [RAG Systems, LLMs, Computer Vision, Secure Data Infrastructure]
 currently: Information Security Intern @ RXIL
-published: "Cryptographic Overwrite based Secure Data Deletion for
-            Heterogeneous Storage Devices" — Wiley
+published: "Cryptographic Overwrite-based Secure Data Deletion for
+             Heterogeneous Storage Devices" — Wiley
 fun_fact: "I deploy ML models on Raspberry Pis more than I probably should"
 ```
 
@@ -54,8 +61,8 @@ fun_fact: "I deploy ML models on Raspberry Pis more than I probably should"
 <tr>
 <td width="50%" valign="top">
 
-### 🐟 [Goldfish Search](https://github.com/YugRokadia)
-AI-powered local file search inspired by Spotlight. Semantic search via embeddings + LLM-powered RAG for natural-language querying.
+### 🐟 [Goldfish Search](https://github.com/YugRokadia/goldfish-search) <!-- ⚠️ update to real repo URL -->
+Local, semantic file search inspired by Spotlight — embeddings + LLM-powered RAG turn natural-language queries into fast, on-device file lookups.
 
 `Python` `LLMs` `RAG` `Embeddings`
 
@@ -63,7 +70,7 @@ AI-powered local file search inspired by Spotlight. Semantic search via embeddin
 <td width="50%" valign="top">
 
 ### 🛡️ [GAT Payload Detection](https://github.com/YugRokadia/GAT-Based-Steganographic-Payload-Detection-in-Neural-Networks)
-Trained 60+ CNNs, engineered 22 byte-level features, detected steganographic payloads in NN weights at **97% accuracy**.
+**97% accuracy** detecting steganographic payloads hidden in neural network weights — trained 60+ CNNs and engineered 22 byte-level features to get there.
 
 `Python` `GNN` `Neural Networks`
 
@@ -73,7 +80,7 @@ Trained 60+ CNNs, engineered 22 byte-level features, detected steganographic pay
 <td width="50%" valign="top">
 
 ### 📡 [TUI Packet Sniffer](https://github.com/YugRokadia/Packet-Sniffer)
-C++ capture engine (libpcap) classifying traffic across 17 protocols, live Python TUI dashboard, deployed on a Raspberry Pi 4B router.
+Live network traffic classifier across 17 protocols — C++/libpcap capture engine feeding a Python TUI dashboard, deployed on a Raspberry Pi 4B router.
 
 `C++` `Python` `Networking` `Linux`
 
@@ -81,13 +88,21 @@ C++ capture engine (libpcap) classifying traffic across 17 protocols, live Pytho
 <td width="50%" valign="top">
 
 ### 🎭 [Emotion & Face Analysis](https://github.com/YugRokadia/Emotion-and-Face-Analysis-CNN)
-Dual CNN models for emotion + age/race/gender estimation (>80% accuracy), auto face-blurring, deployed on a Pi smart camera.
+**80%+ accuracy** dual-CNN pipeline for emotion + age/race/gender estimation, with automatic face-blurring for privacy — deployed on a Pi smart camera.
 
 `Python` `Computer Vision` `Federated Learning`
 
 </td>
 </tr>
 </table>
+
+<br/>
+
+## 🌱 Currently Exploring
+
+- 🔐 Intersection of AI and cybersecurity — adversarial robustness, model-weight forensics, secure ML pipelines
+- 📡 Edge deployment patterns for LLMs and vision models on constrained hardware (Raspberry Pi class devices)
+- 🧩 Retrieval architectures beyond flat vector search (hybrid, graph-based, agentic RAG)
 
 <br/>
 
