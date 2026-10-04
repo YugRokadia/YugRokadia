@@ -1,128 +1,133 @@
-<div align="center">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6E56CF,100:00C2FF&height=220&section=header&text=Yug%20Rokadia&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI/ML%20Engineer%20%7C%20RAG%20%C2%B7%20LLMs%20%C2%B7%20Security%20Systems&descAlignY=58&descSize=20" />
 
-```
-██╗   ██╗██╗   ██╗ ██████╗     ██████╗  ██████╗ ██╗  ██╗ █████╗ ██████╗ ██╗ █████╗
-╚██╗ ██╔╝██║   ██║██╔════╝     ██╔══██╗██╔═══██╗██║ ██╔╝██╔══██╗██╔══██╗██║██╔══██╗
- ╚████╔╝ ██║   ██║██║  ███╗    ██████╔╝██║   ██║█████╔╝ ███████║██║  ██║██║███████║
-  ╚██╔╝  ██║   ██║██║   ██║    ██╔══██╗██║   ██║██╔═██╗ ██╔══██║██║  ██║██║██╔══██║
-   ██║   ╚██████╔╝╚██████╔╝    ██║  ██║╚██████╔╝██║  ██╗██║  ██║██████╔╝██║██║  ██║
-   ╚═╝    ╚═════╝  ╚═════╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝╚═╝  ╚═╝
-```
+<p align="center">
+  <a href="https://www.linkedin.com/in/yug-rokadia/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:yug.rokadia@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/YugRokadia"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
-**AI/ML Engineer · RAG · LLMs · Security Systems**
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6E56CF&center=true&vCenter=true&width=650&lines=Building+RAG+pipelines+%26+LLM-powered+systems;Training+CNNs%2FGNNs+for+security+research;Deploying+ML+on+the+edge+(Raspberry+Pi+%3C3);Currently+exploring+AI+x+Cybersecurity" alt="Typing SVG" />
+</p>
 
-*I build ML systems that run where the data lives, and I care about shipping them, not just training them.*
+<br/>
 
-[LinkedIn](https://www.linkedin.com/in/yug-rokadia/) · [Email](mailto:yug.rokadia@gmail.com) · [GitHub](https://github.com/YugRokadia)
-
-</div>
-
----
-
-```console
-guest@yug:~$ whoami
-Yug Rokadia
-
-guest@yug:~$ cat profile.yml
-role:       AI/ML Engineer
-education:  B.E. Computer Engineering, NMIMS MPSTME, Mumbai
-currently:  Information Security Intern @ RXIL
-focus:      [RAG, LLMs, Computer Vision, Secure Data Infrastructure]
-published:  Wiley
-open_to:    [ML/AI internships, security + ML research]
-
-guest@yug:~$ ./hire --check
-[✔] ships ML to real hardware
-[✔] understands both attacking and defending ML systems
-[✔] published research
-[✔] writes C++ and Python
-=> strong match. say hi: yug.rokadia@gmail.com
-```
-
-> [!NOTE]
-> Fun fact: I deploy ML models on Raspberry Pis more than I probably should.
-
----
-
-## 🚀 What I Build
-
-```mermaid
-flowchart LR
-    A[Raw data<br/>files · packets · images · weights] --> B[Models<br/>RAG · CNN · GNN]
-    B --> C[Edge deployment<br/>Raspberry Pi · on-device]
-    B --> D[Security analysis<br/>detection · privacy]
-    C --> E((Real systems<br/>not just notebooks))
-    D --> E
-```
-
-## 🧪 Featured Projects
-
-| | Project | What it does | Result |
-|---|---|---|---|
-| 🐟 | **[Goldfish Search](https://github.com/YugRokadia/goldfish-search)** | Local, Spotlight-style semantic file search. Embeddings + LLM-powered RAG turn natural-language queries into on-device lookups. Nothing leaves your machine. | Fully local RAG |
-| 🛡️ | **[GAT Payload Detection](https://github.com/YugRokadia/GAT-Based-Steganographic-Payload-Detection-in-Neural-Networks)** | Detects steganographic payloads hidden inside neural network weights using a graph attention network. 60+ CNNs trained, 22 byte-level features engineered. | **97% accuracy** |
-| 📡 | **[TUI Packet Sniffer](https://github.com/YugRokadia/Packet-Sniffer)** | C++/libpcap capture engine feeding a Python terminal dashboard. Runs on a Raspberry Pi 4B acting as a router. | **17 protocols**, live |
-| 🎭 | **[Emotion & Face Analysis](https://github.com/YugRokadia/Emotion-and-Face-Analysis-CNN)** | Dual-CNN pipeline for emotion plus age/race/gender estimation, with automatic face-blurring for privacy. Deployed on a Pi smart camera. | **80%+ accuracy** |
-
-<details>
-<summary><b>Stack per project</b></summary>
-
-| Project | Tech |
-|---|---|
-| Goldfish Search | `Python` `LLMs` `RAG` `Embeddings` |
-| GAT Payload Detection | `Python` `PyTorch` `GNN` `CNN` |
-| TUI Packet Sniffer | `C++` `libpcap` `Python` `Linux` |
-| Emotion & Face Analysis | `Python` `CNN` `Computer Vision` `Federated Learning` |
-
-</details>
-
----
-
-## ⚡ Tech Stack
-
-| Area | Tools |
-|---|---|
-| **Languages** | `Python` `C++` `C` `Java` `JavaScript` `Rust` |
-| **ML / AI** | `PyTorch` `TensorFlow` `scikit-learn` `CNNs` `GNNs` `GRUs` `LLMs` `RAG` `Vector Search` |
-| **Backend & Data** | `Flask` `PostgreSQL` |
-| **Infra & Tools** | `Docker` `Linux` `Git` `Raspberry Pi` |
-
-## 🌱 Currently Exploring
-
-```diff
-+ AI x Security      adversarial robustness, model-weight forensics, secure ML pipelines
-+ Edge AI            LLMs and vision models on Raspberry Pi-class hardware
-+ Retrieval          hybrid, graph-based and agentic RAG beyond flat vector search
-```
-
-## 📝 Research
-
-> **Cryptographic Overwrite-based Secure Data Deletion for Heterogeneous Storage Devices**
-> Published in Wiley.
-
-## 🏆 Highlights
-
-| | |
-|---|---|
-| 🥇 | **Smart India Hackathon 2024**: Internal Hackathon Winner |
-| 👥 | **Team Lead**, Hyphen Ideathon 2024 (Google Developer's Student Club) |
-| 📚 | **Head of R&D**, Social Conclave 2025: study guides used by 700+ participants |
-| 🏅 | Award winner at 5+ Model United Nations conferences |
-
-## 👻 Contribution Graph
-
+<!--
+  🐍 -> 👻 Swapped the classic contribution-snake for Pac-Man, generated by
+  abozanona/pacman-contribution-graph (drop-in replacement for Platane/snk
+  in the workflow). If you'd rather keep the original snake, just point
+  this back at your github-contribution-grid-snake-dark.svg output.
+-->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YugRokadia/YugRokadia/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YugRokadia/YugRokadia/output/pacman-contribution-graph.svg">
   <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/YugRokadia/YugRokadia/output/pacman-contribution-graph.svg" width="100%">
 </picture>
 
----
+<br/>
 
-<div align="center">
+## 🧠 About Me
 
-### Let's build something
+```yaml
+name: Yug Rokadia
+role: AI/ML Engineer
+education: B.E. Computer Engineering @ NMIMS MPSTME, Mumbai
+focus: [RAG Systems, LLMs, Computer Vision, Secure Data Infrastructure]
+currently: Information Security Intern @ RXIL
+published: "Cryptographic Overwrite-based Secure Data Deletion for
+             Heterogeneous Storage Devices" — Wiley
+fun_fact: "I deploy ML models on Raspberry Pis more than I probably should"
+```
 
-📫 **[yug.rokadia@gmail.com](mailto:yug.rokadia@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/yug-rokadia/)
+<br/>
 
-</div>
+## ⚡ Tech Arsenal
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,java,rust,js,postgres,pytorch,tensorflow,flask,react,docker,kubernetes,aws,linux,git&theme=dark&perline=8" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LLMs%20%7C%20RAG-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vector%20Search-6E56CF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/CNNs%20%7C%20GNNs%20%7C%20GRUs-8A2BE2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+</p>
+
+<br/>
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🐟 [Goldfish Search](https://github.com/YugRokadia/goldfish-search) <!-- ⚠️ update to real repo URL -->
+Local, semantic file search inspired by Spotlight — embeddings + LLM-powered RAG turn natural-language queries into fast, on-device file lookups.
+
+`Python` `LLMs` `RAG` `Embeddings`
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ [GAT Payload Detection](https://github.com/YugRokadia/GAT-Based-Steganographic-Payload-Detection-in-Neural-Networks)
+**97% accuracy** detecting steganographic payloads hidden in neural network weights — trained 60+ CNNs and engineered 22 byte-level features to get there.
+
+`Python` `GNN` `Neural Networks`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📡 [TUI Packet Sniffer](https://github.com/YugRokadia/Packet-Sniffer)
+Live network traffic classifier across 17 protocols — C++/libpcap capture engine feeding a Python TUI dashboard, deployed on a Raspberry Pi 4B router.
+
+`C++` `Python` `Networking` `Linux`
+
+</td>
+<td width="50%" valign="top">
+
+### 🎭 [Emotion & Face Analysis](https://github.com/YugRokadia/Emotion-and-Face-Analysis-CNN)
+**80%+ accuracy** dual-CNN pipeline for emotion + age/race/gender estimation, with automatic face-blurring for privacy — deployed on a Pi smart camera.
+
+`Python` `Computer Vision` `Federated Learning`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🌱 Currently Exploring
+
+- 🔐 Intersection of AI and cybersecurity — adversarial robustness, model-weight forensics, secure ML pipelines
+- 📡 Edge deployment patterns for LLMs and vision models on constrained hardware (Raspberry Pi class devices)
+- 🧩 Retrieval architectures beyond flat vector search (hybrid, graph-based, agentic RAG)
+
+<br/>
+
+## 🏆 Highlights
+
+- 📝 Research paper published in **Wiley**
+- 🥇 Smart India Hackathon 2024 — Internal Hackathon Winner
+- 🏅 Award winner in 5+ Model United Nations conferences
+- 👥 Team Lead — Hyphen Ideathon 2024 (Google Developer's Student Club)
+- 📚 Head of R&D, Social Conclave 2025 — study guides used by 700+ participants
+
+<br/>
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YugRokadia&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+  <img src="https://streak-stats.demolab.com?user=YugRokadia&theme=tokyonight&hide_border=true" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YugRokadia&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+</p>
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2FF,100:6E56CF&height=100&section=footer" />
