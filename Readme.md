@@ -56,49 +56,6 @@ fun_fact: "I deploy ML models on Raspberry Pis more than I probably should"
 
 <br/>
 
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🐟 [Goldfish Search](https://github.com/YugRokadia/goldfish-search) <!-- ⚠️ update to real repo URL -->
-Local, semantic file search inspired by Spotlight — embeddings + LLM-powered RAG turn natural-language queries into fast, on-device file lookups.
-
-`Python` `LLMs` `RAG` `Embeddings`
-
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ [GAT Payload Detection](https://github.com/YugRokadia/GAT-Based-Steganographic-Payload-Detection-in-Neural-Networks)
-**97% accuracy** detecting steganographic payloads hidden in neural network weights — trained 60+ CNNs and engineered 22 byte-level features to get there.
-
-`Python` `GNN` `Neural Networks`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📡 [TUI Packet Sniffer](https://github.com/YugRokadia/Packet-Sniffer)
-Live network traffic classifier across 17 protocols — C++/libpcap capture engine feeding a Python TUI dashboard, deployed on a Raspberry Pi 4B router.
-
-`C++` `Python` `Networking` `Linux`
-
-</td>
-<td width="50%" valign="top">
-
-### 🎭 [Emotion & Face Analysis](https://github.com/YugRokadia/Emotion-and-Face-Analysis-CNN)
-**80%+ accuracy** dual-CNN pipeline for emotion + age/race/gender estimation, with automatic face-blurring for privacy — deployed on a Pi smart camera.
-
-`Python` `Computer Vision` `Federated Learning`
-
-</td>
-</tr>
-</table>
-
-<br/>
-
 ## 🌱 Currently Exploring
 
 - 🔐 Intersection of AI and cybersecurity — adversarial robustness, model-weight forensics, secure ML pipelines
