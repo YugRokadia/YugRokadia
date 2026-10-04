@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yug Rokadia — AI/ML Engineer</title>
+<style>
+:root{--bg:#0b0b14;--fg:#d9dcf2;--dim:#7c80a6;--a:#8b73ff;--b:#00c2ff;--ok:#4ade80;--card:#12122100;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f4f4fb;--fg:#1d1d33;--dim:#6a6d8f;--a:#5b3fe0;--b:#0086b3;--ok:#15803d}}
+:root[data-theme="light"]{--bg:#f4f4fb;--fg:#1d1d33;--dim:#6a6d8f;--a:#5b3fe0;--b:#0086b3;--ok:#15803d}
+:root[data-theme="dark"]{--bg:#0b0b14;--fg:#d9dcf2;--dim:#7c80a6;--a:#8b73ff;--b:#00c2ff;--ok:#4ade80}
+html{scroll-padding-top:env(safe-area-inset-top,0px);height:100%}
+body{margin:0;height:100%;background:var(--bg);color:var(--fg);font:15px/1.55 ui-monospace,"Fira Code",Menlo,Consolas,monospace;overflow:hidden}
+canvas{position:fixed;inset:0;width:100%;height:100%;opacity:.55;z-index:0}
+#term{position:relative;z-index:1;height:100%;max-width:860px;margin:0 auto;padding:18px 16px 90px;overflow-y:auto;box-sizing:border-box}
+.l{white-space:pre-wrap;word-break:break-word;margin:0 0 2px}
+.dim{color:var(--dim)}.a{color:var(--a)}.b{color:var(--b)}.ok{color:var(--ok)}
+.big{font-size:clamp(26px,6vw,44px);font-weight:700;background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent;margin:6px 0}
+a{color:var(--b)}
+.row{display:flex;gap:8px;align-items:center}
+.pr{color:var(--ok);white-space:nowrap}
+input{flex:1;min-width:0;background:transparent;border:0;outline:0;color:var(--fg);font:inherit;caret-color:var(--b)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.chip{border:1px solid var(--a);color:var(--fg);background:transparent;border-radius:999px;padding:5px 12px;font:inherit;font-size:13px;cursor:pointer}
+.chip:hover{background:var(--a);color:#fff}
+.p{border-left:2px solid var(--a);padding:2px 0 2px 12px;margin:10px 0}
+.bar{display:inline-block;height:8px;border-radius:4px;background:linear-gradient(90deg,var(--a),var(--b));vertical-align:middle}
+@media (prefers-reduced-motion:reduce){canvas{display:none}}
+</style>
+</head>
+<body>
+<canvas id="c" aria-hidden="true"></canvas>
+<main id="term" aria-live="polite">
+<div id="out"></div>
+<div class="chips" id="chips"></div>
+<div class="row"><span class="pr">guest@yug:~$</span><input id="in" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="terminal input"></div>
+</main>
+<script>
+const out=document.getElementById('out'),inp=document.getElementById('in'),term=document.getElementById('term');
+const P=[
+["Goldfish Search","Local semantic file search, Spotlight-style. Embeddings + LLM RAG turn plain-English queries into on-device lookups. Nothing leaves your machine.","Python · LLMs · RAG","https://github.com/YugRokadia/goldfish-search"],
+["GAT Payload Detection","Finds steganographic payloads hidden inside neural network weights. 97% accuracy; 60+ CNNs trained, 22 byte-level features engineered.","Python · GNN","https://github.com/YugRokadia/GAT-Based-Steganographic-Payload-Detection-in-Neural-Networks"],
+["TUI Packet Sniffer","Live traffic classifier across 17 protocols. C++/libpcap capture engine feeding a Python TUI, running on a Raspberry Pi 4B router.","C++ · Python · Linux","https://github.com/YugRokadia/Packet-Sniffer"],
+["Emotion & Face Analysis","Dual-CNN pipeline for emotion + age/race/gender, 80%+ accuracy, auto face-blurring for privacy. Deployed on a Pi smart camera.","CV · Federated Learning","https://github.com/YugRokadia/Emotion-and-Face-Analysis-CNN"]];
+const S=[["Python / C++",95],["PyTorch / TF",85],["RAG & LLMs",90],["Security / Networking",80],["Edge (Raspberry Pi)",90]];
+const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function add(h,c){const d=document.createElement('div');d.className='l '+(c||'');d.innerHTML=h;out.appendChild(d);term.scrollTop=term.scrollHeight}
+const C={
+help(){add('Commands: <span class="b">about projects stack research now contact hire theme clear</span>','dim')},
+about(){add('<span class="a">name</span>      Yug Rokadia\n<span class="a">role</span>      AI/ML Engineer\n<span class="a">school</span>    B.E. Computer Engineering, NMIMS MPSTME, Mumbai\n<span class="a">now</span>       Information Security Intern @ RXIL\n<span class="a">focus</span>     RAG, LLMs, Computer Vision, Secure Data Infrastructure\n<span class="a">fun fact</span> I deploy ML models on Raspberry Pis more than I probably should')},
+projects(){P.forEach((p,i)=>add(`<div class="p"><b class="b">[${i+1}] ${esc(p[0])}</b>\n${esc(p[1])}\n<span class="dim">${esc(p[2])}</span> · <a href="${p[3]}" target="_blank" rel="noopener">source ↗</a></div>`))},
+stack(){S.forEach(s=>add(`${s[0].padEnd(24,' ')} <span class="bar" style="width:${s[1]*1.8}px"></span> <span class="dim">${s[1]}</span>`));add('self-rated, and happy to be quizzed on it.','dim')},
+research(){add('Published (Wiley):\n<span class="b">Cryptographic Overwrite-based Secure Data Deletion for Heterogeneous Storage Devices</span>\n\nAlso: Smart India Hackathon 2024 internal winner · Head of R&D, Social Conclave 2025 (700+ participants)')},
+now(){add('→ AI × security: adversarial robustness, model-weight forensics\n→ LLMs and vision models on Raspberry Pi–class hardware\n→ Retrieval beyond flat vectors: hybrid, graph, agentic RAG')},
+contact(){add('<a href="mailto:yug.rokadia@gmail.com">yug.rokadia@gmail.com</a>\n<a href="https://www.linkedin.com/in/yug-rokadia/" target="_blank" rel="noopener">linkedin.com/in/yug-rokadia</a>\n<a href="https://github.com/YugRokadia" target="_blank" rel="noopener">github.com/YugRokadia</a>')},
+hire(){add('Running compatibility check...','dim');
+["✔ ships ML to real hardware","✔ understands both attacking and defending ML systems","✔ published research","✔ writes C++ and Python"].forEach((t,i)=>setTimeout(()=>add(t,'ok'),500*(i+1)));
+setTimeout(()=>{add('\nResult: <b class="a">strong match.</b> Say hi → <a href="mailto:yug.rokadia@gmail.com?subject=Let%27s%20talk">yug.rokadia@gmail.com</a>');burst()},2600)},
+theme(){const r=document.documentElement,d=getComputedStyle(r).getPropertyValue('--bg').trim()==='#0b0b14';r.dataset.theme=d?'light':'dark';add('theme switched','dim')},
+clear(){out.innerHTML=''}
+};
+function run(v){v=v.trim().toLowerCase();if(!v)return;add(`<span class="pr">guest@yug:~$</span> ${esc(v)}`);(C[v]||(()=>add(`command not found: ${esc(v)}. try <span class="b">help</span>`,'dim')))()}
+inp.addEventListener('keydown',e=>{if(e.key==='Enter'){run(inp.value);inp.value=''}});
+document.getElementById('chips').innerHTML=['about','projects','stack','research','now','contact','hire'].map(c=>`<button class="chip" data-c="${c}">${c}</button>`).join('');
+document.getElementById('chips').onclick=e=>{const c=e.target.dataset.c;if(c)run(c)};
+term.addEventListener('click',()=>{if(!getSelection().toString())inp.focus({preventScroll:true})});
+/* boot */
+const boot=['<div class="big">Yug Rokadia</div>','<span class="b">AI/ML Engineer</span> — RAG · LLMs · Security Systems','','booting profile...','','Type <span class="b">help</span>, or tap a command below. Start with <span class="b">projects</span>, or go straight to <span class="b">hire</span>.'];
+boot.forEach((t,i)=>setTimeout(()=>add(t,i==3?'dim':''),i*260));
+/* background: drifting "packets" over a faint graph */
+const cv=document.getElementById('c'),x=cv.getContext('2d');let W,H,N=[];
+function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight;N=Array.from({length:Math.min(60,W/18|0)},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.4,vy:(Math.random()-.5)*.4}))}
+addEventListener('resize',rs);rs();
+let bursts=[];function burst(){for(let i=0;i<80;i++)bursts.push({x:W/2,y:H/2,vx:(Math.random()-.5)*14,vy:(Math.random()-.5)*14,l:60})}
+function col(n){return getComputedStyle(document.documentElement).getPropertyValue(n).trim()}
+(function f(){x.clearRect(0,0,W,H);const a=col('--a'),b=col('--b');
+N.forEach(n=>{n.x=(n.x+n.vx+W)%W;n.y=(n.y+n.vy+H)%H});
+for(let i=0;i<N.length;i++)for(let j=i+1;j<N.length;j++){const d=Math.hypot(N[i].x-N[j].x,N[i].y-N[j].y);if(d<130){x.globalAlpha=(1-d/130)*.5;x.strokeStyle=a;x.beginPath();x.moveTo(N[i].x,N[i].y);x.lineTo(N[j].x,N[j].y);x.stroke()}}
+x.globalAlpha=.9;x.fillStyle=b;N.forEach(n=>{x.fillRect(n.x-1.5,n.y-1.5,3,3)});
+bursts=bursts.filter(p=>p.l-->0);bursts.forEach(p=>{p.x+=p.vx;p.y+=p.vy;x.globalAlpha=p.l/60;x.fillStyle=Math.random()>.5?a:b;x.fillRect(p.x,p.y,4,4)});
+requestAnimationFrame(f)})();
+</script>
+</body>
+</html>
