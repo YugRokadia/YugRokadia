@@ -109,6 +109,14 @@ flowchart LR
 | 📚 | **Head of R&D**, Social Conclave 2025: study guides used by 700+ participants |
 | 🏅 | Award winner at 5+ Model United Nations conferences |
 
+## 👻 Contribution Graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YugRokadia/YugRokadia/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YugRokadia/YugRokadia/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/YugRokadia/YugRokadia/output/pacman-contribution-graph.svg" width="100%">
+</picture>
+
 ---
 
 <div align="center">
